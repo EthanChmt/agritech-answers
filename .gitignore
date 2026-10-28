@@ -1,0 +1,21 @@
+# Environnement et cache Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Données brutes (on versionnera uniquement le code ou un échantillon si nécessaire)
+data/raw/*
+!data/raw/.gitkeep
+
+# Tracking MLflow local
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Variables d'environnement et OS
+.env
+.DS_Store
+Thumbs.db
