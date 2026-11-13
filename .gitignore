@@ -19,3 +19,7 @@ mlflow.db
 .env
 .DS_Store
 Thumbs.db
+data/
+docs/
+models/
+reports/
